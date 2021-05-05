@@ -1,20 +1,21 @@
-h3
+.heading
 {
-    font-size: 25px !important;
+    font-size: 23px;
+    width: 100%;
+    margin: 0px;
+    box-shadow: 5px 5px 5px rgba(195, 0, 255, 0.726);
 }
 
-.btn-success:hover
+.heading_div
 {
-    background-color: blueviolet;
+    float: none;
+    background: gainsboro;
+    padding: 10px;
+    color: black;
+    box-shadow:5px 5px 5px darkslateblue;
 }
 
-canvas{
-    animation-name: example;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
-}
-
-@keyframes example {
-    from {box-shadow: 1px 1px 38px rgb(153, 0, 255);}
-    to {box-shadow: 1px 1px 38px rgb(0, 255, 179);}
+.heading_div2
+{
+    font-size: 18px;
 }
